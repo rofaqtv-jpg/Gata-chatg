@@ -15,7 +15,7 @@ jobs:
       - name: Create REAL Turrinimusic Project
         run: |
           rm -rf lib android pubspec.yaml
-          flutter create --project-name turrinimusic --org com.turrini --platforms android.
+          flutter create --project-name turrinimusic --org com.turrini --platforms android
 
           cat > pubspec.yaml << 'PUB'
           name: turrinimusic
